@@ -17,41 +17,17 @@ const Layout: React.FC = ({ children }) => {
         ></link>
       </Head>
       <body>
-        <nav className="navbar navbar-expand-lg navbar-light bg-light">
+        <nav className="navbar navbar-light bg-light">
           <a className="navbar-brand" href="#">
             Navbar
           </a>
-          <button
-            className="navbar-toggler"
-            type="button"
-            data-toggle="collapse"
-            data-target="#navbarNavAltMarkup"
-            aria-controls="navbarNavAltMarkup"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
+          <button className="navbar-toggler" type="button">
             <Link href="/">Home</Link>
           </button>
-          <button
-            className="navbar-toggler"
-            type="button"
-            data-toggle="collapse"
-            data-target="#navbarNavAltMarkup"
-            aria-controls="navbarNavAltMarkup"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
+          <button className="navbar-toggler" type="button">
             <Link href="/blog/first-article">First-article</Link>
           </button>
-          <button
-            className="navbar-toggler"
-            type="button"
-            data-toggle="collapse"
-            data-target="#navbarNavAltMarkup"
-            aria-controls="navbarNavAltMarkup"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
+          <button className="navbar-toggler" type="button">
             <Link href="/blog/second-article">Second-article</Link>
           </button>
         </nav>
